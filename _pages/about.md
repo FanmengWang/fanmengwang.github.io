@@ -24,10 +24,10 @@ Before that, he received his B.S. degree from the [School of Information Science
 His research lies in structured data-oriented machine learning and applications. 
 In particular, He is very interested in geometric deep learning, graph representation learning, and AI4science.
 
-```
+<!--
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.07*: &nbsp;🎉🎉 One paper accepted to CIKM 2024.
+-->
 
 # 📝 Publications 
 
@@ -59,4 +59,3 @@ In particular, He is very interested in geometric deep learning, graph represent
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
-```
