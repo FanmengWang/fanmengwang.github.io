@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# About Me
+
 Fanmeng Wang (王钒锰 in Chinese) is currently a Ph.D. student at the [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of
 China](http://www.ruc.edu.cn/), under the supervision of [Prof. Hongteng Xu](https://hongtengxu.github.io/). 
 Before that, he received his B.S. degree from the [School of Information Science and Engineering](https://radio.seu.edu.cn/), [Southeast University](https://www.seu.edu.cn/) in June 2022.
@@ -26,11 +26,11 @@ His research lies in structured data-oriented machine learning and applications.
 In particular, He is very interested in geometric deep learning, graph representation learning, and AI4science.
 
 
-# Recent News
+# 🔥 News
 - [*2024.07*] One paper is accepted by CIKM 2024. Thanks to all the collaborators!
 
 
-# Selected Publications
+# 📝 Selected Publications
 - **MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction**
   - <u>Fanmeng Wang</u>, Wentao Guo, Minjie Cheng, Shen Yuan, Hongteng Xu, Zhifeng Gao
   - To Appear, at the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)
@@ -41,8 +41,8 @@ In particular, He is very interested in geometric deep learning, graph represent
 
 
 # 🎖 Honors and Awards
-- *2022* Outstanding Undergraduate Graduate, Southeast University.
-- *2019* First Prize, Higher Mathematics Competition in Provinces, Jiangsu.
+- *2022*, Outstanding Undergraduate Graduate, Southeast University.
+- *2019*, First Prize, Higher Mathematics Competition in Provinces, Jiangsu.
 
 
 # 📖 Educations
