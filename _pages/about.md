@@ -17,6 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# About Me
 Fanmeng Wang (王钒锰 in Chinese) is currently a Ph.D. student at the [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of
 China](http://www.ruc.edu.cn/), under the supervision of [Prof. Hongteng Xu](https://hongtengxu.github.io/). 
 Before that, he received his B.S. degree from the [School of Information Science and Engineering](https://radio.seu.edu.cn/), [Southeast University](https://www.seu.edu.cn/) in June 2022.
@@ -24,26 +25,15 @@ Before that, he received his B.S. degree from the [School of Information Science
 His research lies in structured data-oriented machine learning and applications. 
 In particular, He is very interested in geometric deep learning, graph representation learning, and AI4science.
 
-<!--
-# 🔥 News
-- *2024.07*: &nbsp;🎉🎉 One paper accepted to CIKM 2024.
--->
 
-# 📝 Publications 
+# Selected Publications
+- **MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction**
+  - <u>Fanmeng Wang</u>, Wentao Guo, Minjie Cheng, Shen Yuan, Hongteng Xu, Zhifeng Gao
+  - To Appear, at the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- **MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction**
+  - <u>Fanmeng Wang</u>, Hongteng Xu, Xi Chen, Shuqi Lu, Yuqing Deng, Wenbing Huang
+  - Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
