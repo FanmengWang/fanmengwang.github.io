@@ -29,7 +29,7 @@ Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discuss
 
 
 # 🔥 News
-- *2024.07*: &nbsp;🎉🎉 One paper is accepted by CIKM 2024. Thanks to my collaborators!
+- *2024.07*: &nbsp;🎉🎉 One paper is accepted by CIKM 2024. Thanks to all the collaborators!
 
 
 # 📝 Selected Publications
