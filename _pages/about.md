@@ -23,7 +23,7 @@ China](http://www.ruc.edu.cn/), under the supervision of [Prof. Hongteng Xu](htt
 Before that, he received his B.S. degree from the [School of Information Science and Engineering](https://radio.seu.edu.cn/), [Southeast University](https://www.seu.edu.cn/) in June 2022.
 
 His research lies in structured data-oriented machine learning and applications. 
-In particular, He is very interested in geometric deep learning, graph representation learning, and AI4science.
+In particular, He is very interested in geometric deep learning, graph representation learning, and AI4Science.
 
 Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discussions!
 
