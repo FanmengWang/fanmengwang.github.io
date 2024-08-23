@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Fanmeng Wang is currently a Ph.D. student at the [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of
+Fanmeng Wang (王钒锰 in Chinese) is currently a Ph.D. student at the [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of
 China](http://www.ruc.edu.cn/), under the supervision of [Prof. Hongteng Xu](https://hongtengxu.github.io/). 
 Before that, he received his B.S. degree from the [School of Information Science and Engineering](https://radio.seu.edu.cn/), [Southeast University](https://www.seu.edu.cn/) in June 2022.
 
