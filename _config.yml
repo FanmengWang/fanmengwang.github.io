@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Fanmeng Wang"
-description              : "Per aspera ad astra"
+description              : "Per aspera ad astra."
 repository               : "FanmengWang/fanmengwang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Fanmeng Wang"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/android-chrome-192x192.png"
   bio              : ""
   location         : "Beijing, China"
   employer         :
@@ -44,8 +44,8 @@ author:
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  dblp             : "https://dblp.org/pid/358/8527"
+  orcid            : "https://orcid.org/0009-0002-2287-2339"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
