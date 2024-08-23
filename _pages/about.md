@@ -25,7 +25,7 @@ Before that, he received his B.S. degree from the [School of Information Science
 His research lies in structured data-oriented machine learning and applications. 
 In particular, He is very interested in geometric deep learning, graph representation learning, and AI4science.
 
-Feel free to reach him at fanmengwang@ruc.edu.cn for collaborations or discussions!
+Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discussions!
 
 
 # 🔥 News
@@ -54,3 +54,5 @@ Feel free to reach him at fanmengwang@ruc.edu.cn for collaborations or discussio
 
 # 💻 Internships
 - *2022.07 - Present*, [DP Technology](https://www.dp.tech/), Beijing, China.
+
+Updated on Aug.23, 2024  
