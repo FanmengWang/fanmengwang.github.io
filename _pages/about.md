@@ -26,26 +26,29 @@ His research lies in structured data-oriented machine learning and applications.
 In particular, He is very interested in geometric deep learning, graph representation learning, and AI4science.
 
 
+# Recent News
+- [*2024.07*] One paper is accepted by CIKM 2024. Thanks to all the collaborators!
+
+
 # Selected Publications
 - **MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction**
   - <u>Fanmeng Wang</u>, Wentao Guo, Minjie Cheng, Shen Yuan, Hongteng Xu, Zhifeng Gao
   - To Appear, at the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)
 
-- **MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction**
+- **MPerformer: An SE(3) Transformer-based Molecular Perceptron**
   - <u>Fanmeng Wang</u>, Hongteng Xu, Xi Chen, Shuqi Lu, Yuqing Deng, Wenbing Huang
   - Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
 
+
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022* Outstanding Undergraduate Graduate, Southeast University.
+- *2019* First Prize, Higher Mathematics Competition in Provinces, Jiangsu.
+
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09 - Present*, Ph.D. student in the Gaoling School of Artificial Intelligence, Renmin University of China.
+- *2018.09 - 2022.06*, Undergraduate student in the School of Information Science and Engineering, Southeast University.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2022.07 - Present*, [DP Technology](https://www.dp.tech/), Beijing, China.
