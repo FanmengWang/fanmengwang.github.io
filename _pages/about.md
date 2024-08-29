@@ -55,4 +55,4 @@ Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discuss
 # 💻 Internships
 - *2022.07 - Present*, [DP Technology](https://www.dp.tech/), Beijing, China.
 
-Updated on Aug.23, 2024  
+Updated on Aug.29, 2024  
