@@ -42,7 +42,7 @@ Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discuss
   - Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
 
 
-# 🎖 Honors and Awards
+# 🎖️ Honors and Awards
 - *2022*, Outstanding Undergraduate Graduate, Southeast University.
 - *2019*, First Prize, Higher Mathematics Competition in Provinces, Jiangsu.
 
