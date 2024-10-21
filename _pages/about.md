@@ -33,11 +33,11 @@ Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discuss
 
 
 # 📝 Selected Publications
-- **MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction**
+- [MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction](https://dl.acm.org/doi/10.1145/3627673.3679684)
   - <u>Fanmeng Wang</u>, Wentao Guo, Minjie Cheng, Shen Yuan, Hongteng Xu, Zhifeng Gao
-  - To Appear, at the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)
+  - Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)
 
-- **MPerformer: An SE(3) Transformer-based Molecular Perceptron**
+- [MPerformer: An SE(3) Transformer-based Molecular Perceptron](https://dl.acm.org/doi/10.1145/3583780.3614974)
   - <u>Fanmeng Wang</u>, Hongteng Xu, Xi Chen, Shuqi Lu, Yuqing Deng, Wenbing Huang
   - Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
 
@@ -55,4 +55,4 @@ Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discuss
 # 💻 Internships
 - *2022.07 - Present*, [DP Technology](https://www.dp.tech/), Beijing, China.
 
-Updated on Aug.29, 2024  
+Updated on Oct.21, 2024  
