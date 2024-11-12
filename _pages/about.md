@@ -33,7 +33,7 @@ Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discuss
 
 
 # 📝 Selected Publications
-- [MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction](https://dl.acm.org/doi/10.1145/3627673.3679684)
+- MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction [Paper](https://dl.acm.org/doi/10.1145/3627673.3679684) [Code][https://github.com/FanmengWang/MMPolymer]
   - <u>Fanmeng Wang</u>, Wentao Guo, Minjie Cheng, Shen Yuan, Hongteng Xu, Zhifeng Gao
   - Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)
 
