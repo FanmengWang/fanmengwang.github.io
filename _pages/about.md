@@ -39,7 +39,7 @@ Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discuss
   Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)
 
 - MPerformer: An SE(3) Transformer-based Molecular Perceptron <br>
-  [[Paper]](https://dl.acm.org/doi/10.1145/3583780.3614974) [[Code]](https://github.com/FanmengWang/MPerformer) [[Website]](https://app.bohrium.dp.tech/mperforemr/) <br>
+  [[Paper]](https://dl.acm.org/doi/10.1145/3583780.3614974) [[Code]](https://github.com/FanmengWang/MPerformer) [[Website]](https://bohrium.dp.tech/apps/mperformer) <br>
   **Fanmeng Wang**, Hongteng Xu, Xi Chen, Shuqi Lu, Yuqing Deng, Wenbing Huang <br>
   Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
 
