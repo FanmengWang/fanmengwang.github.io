@@ -34,13 +34,13 @@ Feel free to reach him at <fanmengwang@ruc.edu.cn> for collaborations or discuss
 
 # 📝 Selected Publications
 - MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction <br>
-  [[Paper]](https://dl.acm.org/doi/10.1145/3627673.3679684) [[Code]](https://github.com/FanmengWang/MMPolymer) [[Website]](https://bohrium.dp.tech/apps/mmpolymer)  
-  <u>Fanmeng Wang</u>, Wentao Guo, Minjie Cheng, Shen Yuan, Hongteng Xu, Zhifeng Gao
+  [[Paper]](https://dl.acm.org/doi/10.1145/3627673.3679684) [[Code]](https://github.com/FanmengWang/MMPolymer) [[Website]](https://bohrium.dp.tech/apps/mmpolymer) <br> 
+  <u>Fanmeng Wang</u>, Wentao Guo, Minjie Cheng, Shen Yuan, Hongteng Xu, Zhifeng Gao <br>
   Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024)
 
 - MPerformer: An SE(3) Transformer-based Molecular Perceptron <br>
-  [[Paper]](https://dl.acm.org/doi/10.1145/3583780.3614974) [[Code]](https://github.com/FanmengWang/MPerformer) [[Website]](https://app.bohrium.dp.tech/mperforemr/) 
-  <u>Fanmeng Wang</u>, Hongteng Xu, Xi Chen, Shuqi Lu, Yuqing Deng, Wenbing Huang
+  [[Paper]](https://dl.acm.org/doi/10.1145/3583780.3614974) [[Code]](https://github.com/FanmengWang/MPerformer) [[Website]](https://app.bohrium.dp.tech/mperforemr/) <br>
+  <u>Fanmeng Wang</u>, Hongteng Xu, Xi Chen, Shuqi Lu, Yuqing Deng, Wenbing Huang <br>
   Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
 
 
