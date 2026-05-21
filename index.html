@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Fanmeng Wang - Personal Homepage">
+  <link rel="icon" href="./files/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Fanmeng Wang - Homepage</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H43TBSP890"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-H43TBSP890');
+  </script>
+  
+  <style>
+    #toptitle h1 {
+      color: #3b6cb4;
+      font-weight: bold;
+    }
+    .chinese-calligraphy {
+      font-family: 'Dancing Script', cursive;
+      color: #3b6cb4;
+      font-size: 2em;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    .chinese-name {
+      color: #3b6cb4;
+      font-size: 2.2rem;
+      font-weight: normal;
+      margin-left: 4px;
+    }
+    .chinese-name-text {
+      font-family: 'Ma Shan Zheng', cursive;
+      letter-spacing: 2px;
+    }
+  </style>
+
+  <style>
+    /* ===== Reset & Base ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: #f8f9fb;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #2d3436;
+      background: #f8f9fb;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ===== Container ===== */
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    /* ===== Top Navigation Bar ===== */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      padding: 0 32px;
+    }
+    .navbar-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 28px;
+      height: 48px;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+    .navbar a {
+      color: #555;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .navbar a:hover { color: #3b6cb4; }
+
+    /* ===== Hero / Header ===== */
+    .hero {
+      padding: 48px 0 24px;
+    }
+    .hero-inner {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+      flex-wrap: wrap;
+    }
+    .hero-text { flex: 1; min-width: 300px; }
+    .hero-text h1 {
+      font-size: 2.3rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 2px;
+      letter-spacing: -0.5px;
+    }
+    .hero-subtitle {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: #3b6cb4;
+      margin-bottom: 14px;
+    }
+    .hero-affiliation {
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 6px;
+    }
+    .hero-affiliation a,
+    .hero-affiliation a:visited {
+      color: #3b6cb4;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero-affiliation a:hover { text-decoration: underline; }
+    .hero-contact {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 12px;
+      margin-bottom: 2px;
+    }
+    .hero-contact a,
+    .hero-contact a:visited {
+      color: #3b6cb4;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero-contact a:hover { text-decoration: underline; }
+    .hero-links {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 4px;
+    }
+    .hero-links a,
+    .hero-links a:visited {
+      color: #3b6cb4;
+      text-decoration: none;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+    .hero-links a:hover {
+      text-decoration: underline;
+    }
+    .hero-links .link-sep {
+      color: #ccc;
+      margin: 0 8px;
+      user-select: none;
+    }
+    .hero-photo {
+      flex-shrink: 0;
+    }
+    .hero-photo img {
+      width: 200px;
+      height: 200px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    }
+
+    /* ===== Section ===== */
+    .section {
+      padding: 28px 0;
+    }
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 18px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e8ecf2;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: #3b6cb4;
+      border-radius: 2px;
+      margin-left: auto;
+    }
+
+    /* ===== About / Research ===== */
+    .about-text {
+      font-size: 0.95rem;
+      color: #444;
+      line-height: 1.75;
+    }
+    .about-text a {
+      color: #3b6cb4;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .about-text a:hover { text-decoration: underline; }
+
+    .research-areas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .research-card {
+      background: #fff;
+      border: 1px solid #e8ecf2;
+      border-radius: 10px;
+      padding: 20px 22px;
+      transition: box-shadow 0.25s, transform 0.25s;
+    }
+    .research-card:hover {
+      box-shadow: 0 6px 24px rgba(0,0,0,0.07);
+      transform: translateY(-2px);
+    }
+    .research-card .rc-icon {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+    .research-card h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 6px;
+    }
+    .research-card p {
+      font-size: 0.875rem;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    /* ===== News ===== */
+    .news-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .news-list li {
+      font-size: 0.9rem;
+      color: #444;
+      padding: 8px 14px;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #eef0f5;
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .news-date {
+      font-weight: 600;
+      color: #3b6cb4;
+      font-size: 0.8rem;
+      white-space: nowrap;
+      min-width: 70px;
+    }
+
+    /* ===== Education ===== */
+    .edu-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .edu-list li {
+      font-size: 0.92rem;
+      color: #444;
+      padding: 10px 16px;
+      background: #fff;
+      border-radius: 8px;
+      border-left: 3px solid #3b6cb4;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .edu-date {
+      font-weight: 600;
+      color: #3b6cb4;
+      font-size: 0.82rem;
+      white-space: nowrap;
+      min-width: 130px;
+    }
+
+    /* ===== Papers ===== */
+    .pub-note {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 14px;
+    }
+    .paper-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .paper-item {
+      background: #fff;
+      border: 1px solid #e8ecf2;
+      border-radius: 10px;
+      padding: 18px 22px;
+      transition: box-shadow 0.2s;
+    }
+    .paper-item:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+    .paper-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+    .paper-authors {
+      font-size: 0.875rem;
+      color: #555;
+      margin-bottom: 4px;
+    }
+    .paper-authors strong { color: #1a1a2e; }
+    .paper-venue {
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 8px;
+      font-style: italic;
+    }
+    .paper-venue strong {
+      font-style: normal;
+      color: #3b6cb4;
+    }
+    .paper-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .paper-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      padding: 4px 13px;
+      border-radius: 14px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s;
+      background: #f0f3f9;
+      color: #3b6cb4;
+      border: 1px solid transparent;
+    }
+    .paper-links a:hover {
+      background: #3b6cb4;
+      color: #fff;
+    }
+    .paper-links a.tag-demo {
+      background: #fdf2f0;
+      color: #c0392b;
+    }
+    .paper-links a.tag-demo:hover {
+      background: #c0392b;
+      color: #fff;
+    }
+
+    /* ===== Awards ===== */
+    .award-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .award-list li {
+      font-size: 0.9rem;
+      color: #444;
+      padding: 8px 14px;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #eef0f5;
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+
+    /* ===== Internship ===== */
+    .intern-card {
+      background: #fff;
+      border: 1px solid #e8ecf2;
+      border-radius: 10px;
+      padding: 18px 22px;
+    }
+    .intern-card .intern-header {
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 6px;
+      font-size: 0.92rem;
+    }
+    .intern-card .intern-header a,
+    .intern-card .intern-header a:visited {
+      color: #3b6cb4;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .intern-card .intern-header a:hover { text-decoration: underline; }
+    .intern-card .intern-detail {
+      font-size: 0.875rem;
+      color: #555;
+      line-height: 1.7;
+    }
+    .intern-card .intern-detail a,
+    .intern-card .intern-detail a:visited {
+      color: #3b6cb4;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .intern-card .intern-detail a:hover { text-decoration: underline; }
+
+    /* ===== Services ===== */
+    .service-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .service-card {
+      background: #fff;
+      border: 1px solid #e8ecf2;
+      border-radius: 10px;
+      padding: 16px 20px;
+    }
+    .service-card h3 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 6px;
+    }
+    .service-card ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .service-card li {
+      font-size: 0.82rem;
+      color: #555;
+      background: #f4f6fb;
+      padding: 3px 10px;
+      border-radius: 12px;
+    }
+
+    /* ===== Footer ===== */
+    .footer {
+      text-align: center;
+      padding: 32px 0 16px;
+      color: #999;
+      font-size: 0.8rem;
+    }
+    .footer-quote {
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.6rem;
+      color: #2d3436;
+      margin: 20px 0 8px;
+    }
+    .clustrmap-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 16px 0;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      .hero { padding: 36px 0; }
+      .hero-inner { flex-direction: column-reverse; align-items: center; text-align: center; padding: 0 20px; }
+      .hero-links { text-align: center; }
+      .hero-photo img { width: 140px; height: 140px; }
+      .hero-text h1 { font-size: 1.7rem; }
+      .service-grid { grid-template-columns: 1fr; }
+      .research-areas { grid-template-columns: 1fr; }
+      .navbar-inner { justify-content: center; }
+      .container { padding: 0 20px; }
+      .navbar { padding: 0 20px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero { padding: 28px 0 20px; }
+      .hero-text h1 { font-size: 1.4rem; }
+      .hero-photo img { width: 110px; height: 110px; }
+      .paper-links a { font-size: 0.72rem; padding: 3px 10px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- ===== Hero ===== -->
+    <header class="hero" id="about">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>Fanmeng Wang <span class="chinese-name">（<span class="chinese-name-text">王钒锰</span>）</span></h1>
+          <div class="hero-subtitle">Ph.D. Candidate</div>
+          <div class="hero-affiliation">
+            <a href="http://ai.ruc.edu.cn/" target="_blank">Gaoling School of Artificial Intelligence</a><br>
+            <a href="https://www.ruc.edu.cn/" target="_blank">Renmin University of China</a><br>
+            Beijing, China
+          </div>
+          <div class="hero-contact">
+            Email: <a href="mailto:fanmengwang@ruc.edu.cn">fanmengwang@ruc.edu.cn</a>
+          </div>
+          <div class="hero-links">
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=veE64t8AAAAJ" target="_blank">Google Scholar</a><span class="link-sep">|</span><a href="https://github.com/fanmengwang" target="_blank">GitHub</a><span class="link-sep">|</span><a href="https://dblp.org/pid/358/8527" target="_blank">DBLP</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="./files/photo.jpg" alt="Fanmeng Wang">
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== About / Research ===== -->
+    <section class="section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-text">
+        <p>
+          🎓 I am currently a fourth-year Ph.D. candidate at
+          <a href="https://ai.ruc.edu.cn/" target="_blank">Gaoling School of Artificial Intelligence</a>,
+          <a href="https://www.ruc.edu.cn/" target="_blank">Renmin University of China</a>,
+          under the supervision of Prof. <a href="https://hongtengxu.github.io/" target="_blank">Hongteng Xu</a>.
+          Before that, I received my B.E. degree from the
+          <a href="https://radio.seu.edu.cn/" target="_blank">School of Information Science and Engineering</a>,
+          <a href="https://www.seu.edu.cn/" target="_blank">Southeast University</a> in June 2022.
+        </p>
+        <p style="margin-top:6px;">
+          🔬 My research focuses on <strong>data-driven machine learning</strong>, aiming to advance
+          <strong>large language models</strong>, <strong>deep generative models</strong>, and
+          <strong>geometric deep learning</strong> through novel neural network architectures and
+          learning paradigms, exploring frontier applications in mathematical reasoning and scientific
+          discovery.
+        </p>
+        <p style="margin-top:6px;"></p>
+        ✉️ Feel free to reach me for collaborations or discussions!
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== News ===== -->
+    <section class="section" id="news">
+      <h2 class="section-title">News</h2>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">2025.09</span>
+          One paper is accepted by <strong>Environmental Science &amp; Technology</strong>
+        </li>
+        <li>
+          <span class="news-date">2025.05</span>
+          Two papers are accepted by <strong>ICML 2025</strong>
+        </li>
+        <li>
+          <span class="news-date">2024.07</span>
+          One paper is accepted by <strong>CIKM 2024</strong>
+        </li>
+        <li>
+          <span class="news-date">2023.07</span>
+          One paper is accepted by <strong>CIKM 2023</strong>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section">
+      <h2 class="section-title">Education</h2>
+      <ul class="edu-list">
+        <li>
+          <span class="edu-date">2022.09 &ndash; Present</span>
+          Ph.D. at Gaoling School of Artificial Intelligence, Renmin University of China
+        </li>
+        <li>
+          <span class="edu-date">2018.09 &ndash; 2022.06</span>
+          B.E. at School of Information Science and Engineering, Southeast University
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Selected Papers ===== -->
+    <section class="section" id="publications">
+      <h2 class="section-title">Publications</h2>
+      <p class="pub-note">* denotes equal contribution.</p>
+      <ul class="paper-list">
+
+        <li class="paper-item">
+          <div class="paper-title">PolyConf: Unlocking Polymer Conformation Generation through Hierarchical Generative Models</div>
+          <div class="paper-authors"><strong>Fanmeng Wang</strong>, Wentao Guo, Qi Ou, Hongshuai Wang, Haitao Lin, Hongteng Xu, Zhifeng Gao</div>
+          <div class="paper-venue">International Conference on Machine Learning <strong>(ICML)</strong>, 2025</div>
+          <div class="paper-links">
+            <a href="https://polyconf-icml25.github.io" target="_blank">Project</a>
+            <a href="https://arxiv.org/abs/2504.08859" target="_blank">Paper</a>
+            <a href="https://github.com/FanmengWang/PolyConf" target="_blank">Code</a>
+            <a href="https://www.bohrium.com/apps/polyconf" target="_blank" class="tag-demo">Demo</a>
+          </div>
+        </li>
+
+        <li class="paper-item">
+          <div class="paper-title">WGFormer: An SE(3)-Transformer Driven by Wasserstein Gradient Flows for Molecular Ground-State Conformation Prediction</div>
+          <div class="paper-authors"><strong>Fanmeng Wang</strong>, Minjie Cheng, Hongteng Xu</div>
+          <div class="paper-venue">International Conference on Machine Learning <strong>(ICML)</strong>, 2025</div>
+          <div class="paper-links">
+            <a href="https://arxiv.org/abs/2410.09795" target="_blank">Paper</a>
+            <a href="https://github.com/FanmengWang/WGFormer" target="_blank">Code</a>
+          </div>
+        </li>
+
+        <li class="paper-item">
+          <div class="paper-title">MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer Property Prediction</div>
+          <div class="paper-authors"><strong>Fanmeng Wang</strong>, Wentao Guo, Minjie Cheng, Shen Yuan, Hongteng Xu, Zhifeng Gao</div>
+          <div class="paper-venue">ACM International Conference on Information and Knowledge Management <strong>(CIKM)</strong>, 2024</div>
+          <div class="paper-links">
+            <a href="https://dl.acm.org/doi/10.1145/3627673.3679684" target="_blank">Paper</a>
+            <a href="https://github.com/FanmengWang/MMPolymer" target="_blank">Code</a>
+            <a href="https://www.bohrium.com/apps/MMPolymer" target="_blank" class="tag-demo">Demo</a>
+          </div>
+        </li>
+
+        <li class="paper-item">
+          <div class="paper-title">MPerformer: An SE(3) Transformer-based Molecular Perceptron</div>
+          <div class="paper-authors"><strong>Fanmeng Wang</strong>, Hongteng Xu, Xi Chen, Shuqi Lu, Yuqing Deng, Wenbing Huang</div>
+          <div class="paper-venue">ACM International Conference on Information and Knowledge Management <strong>(CIKM)</strong>, 2023</div>
+          <div class="paper-links">
+            <a href="https://dl.acm.org/doi/abs/10.1145/3583780.3614974" target="_blank">Paper</a>
+            <a href="https://github.com/FanmengWang/MPerformer" target="_blank">Code</a>
+            <a href="https://www.bohrium.com/apps/mperformer" target="_blank" class="tag-demo">Demo</a>
+          </div>
+        </li>
+
+        <li class="paper-item">
+          <div class="paper-title">Multiscale-Information-Embedded Universal Toxicity Prediction Framework</div>
+          <div class="paper-authors">Lianlian Wu*, <strong>Fanmeng Wang*</strong>, Yixin Zhang*, Ruijiang Li, Yanpeng Zhao, Hongteng Xu, Zhifeng Gao, Song He, Xiaochen Bo</div>
+          <div class="paper-venue">Environmental Science &amp; Technology <strong>(ES&amp;T)</strong>, 2025</div>
+          <div class="paper-links">
+            <a href="https://pubs.acs.org/doi/abs/10.1021/acs.est.5c04614" target="_blank">Paper</a>
+            <a href="https://github.com/FanmengWang/ToxScan" target="_blank">Code</a>
+            <a href="https://funmg.dp.tech/Toxscan" target="_blank" class="tag-demo">Demo</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Honors & Awards ===== -->
+    <section class="section">
+      <h2 class="section-title">Honors &amp; Awards</h2>
+      <ul class="award-list">
+        <li>
+          <span class="news-date">2022.06</span>
+          Outstanding Undergraduate Graduate, Southeast University
+        </li>
+        <li>
+          <span class="news-date">2019.06</span>
+          First Prize, Higher Mathematics Competition in Provinces, Jiangsu
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Internships ===== -->
+    <section class="section">
+      <h2 class="section-title">Internships</h2>
+      <div class="intern-card">
+        <div class="intern-header">
+          2022.07 &ndash; Present <br>
+          Research Intern at <a href="https://www.dp.tech" target="_blank">DP Technology</a>, Beijing
+        </div>
+        <div class="intern-detail">
+          Working on AI4Science under the guidance of
+          <a href="https://scholar.google.com/citations?user=uBo3SJcAAAAJ&hl" target="_blank">Zhifeng Gao</a>,
+          <a href="https://scholar.google.com/citations?user=vrXBYX8AAAAJ&hl" target="_blank">Shuqi Lu</a>, and
+          <a href="https://scholar.google.com/citations?user=M2qJgtoAAAAJ&hl" target="_blank">Guolin Ke</a>.
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Academic Services ===== -->
+    <section class="section" id="services">
+      <h2 class="section-title">Academic Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Conference Reviewer</h3>
+          <ul>
+            <li>ICML</li>
+            <li>ICLR</li>
+            <li>NeurIPS</li>
+            <li>KDD</li>
+            <li>AAAI</li>
+            <li>IJCAI</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>Journal Reviewer</h3>
+          <ul>
+            <li>ACM Computing Surveys</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <div class="clustrmap-wrap">
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=huLmiEWt912XfHi3DGcma9Z-qdjjMQTBGcHZkFe2wTg&cl=ffffff&w=a"></script>
+      </div>
+      <div class="footer-quote">Per aspera ad astra</div>
+      <p>Updated on Sep. 29, 2025</p>
+    </footer>
+
+  </div>
+</body>
+</html>
